@@ -14,11 +14,11 @@ The objective of the project is to perform a first filtering while I take the op
 ### General Info and Hypotheses
 
 In this analysis we try to prove some hypotheses through a dataset obtained from Kaggle https://www.kaggle.com/teajay/global-shark-attacks. Las hipótesis son las siguientes: 
-```
-- Can being in motion in the water increase the risk of being attacked by a shark in the water?
-- Can it be said that acuatic sports are the activities with the highest risk of lethality in terms of shark attacks?
-- In which places is it more likely to be attacked by a shark?
-```
+
+- * Can being in motion in the water increase the risk of being attacked by a shark in the water? * -
+- * Can it be said that acuatic sports are the activities with the highest risk of lethality in terms of shark attacks?* -
+- * In which places is it more likely to be attacked by a shark?* -
+
 
 ### Data treatment
 
