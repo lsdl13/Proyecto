@@ -6,14 +6,14 @@ The objective of the project is to perform a first filtering while I take the op
 
 ## Table of Contents
 1. [General Info](#general-info)
-2. [Data treatment](#Data)
+2. [Data treatment](#Data-treatment)
 3. [Libraries](#Libraries)
 4. [Technology](#Technology)
 5. [Methodology](#Methodology)
 
 ### General Info and Hypotheses
 
-In this analysis we try to prove some hypotheses through a dataset obtained from Kaggle https://www.kaggle.com/teajay/global-shark-attacks. Las hipótesis son las siguientes: 
+In this analysis we try to prove some hypotheses through a dataset obtained from Kaggle https://www.kaggle.com/teajay/global-shark-attacks. The Hypotheses are the following: 
 
 - * Can being in motion in the water increase the risk of being attacked by a shark in the water? * -
 - * Can it be said that acuatic sports are the activities with the highest risk of lethality in terms of shark attacks?* -
@@ -59,20 +59,20 @@ The realization of the project is divided into up to 4 parts:
 
 2. Cleaning of the dataset according to the hypotheses and extraction of up to 3 new data tables.
 
-* Cleaning of the Activity column
+        * Cleaning of the Activity column
 - use of regex to preserve only the gerunds of the activity
 - creation of new column to transfer these gerunds
 - assignment of values by creating a dictionary to split the activities according to the movement
 - elimination of rows with null values in the column of interest.
 
-* Cleaning of the Fatal column
+        * Cleaning of the Fatal column
 - standardization of values in Yes, No, Unknown using the replace function. 
 - elimination of lines with no value in this section. 
 - parallel cleaning of the Activity column in order to be able to relate both in subsequent graphs.
 - renaming of columns for further manipulation
 - discarding columns using the drop function
 
-* Cleanup of the Country column
+        * Cleanup of the Country column
 - use of the above to list the Country column next to the Fatal column. 
 
 3. Visualization of the data obtained in section 2 by using mainly the seaborn library.
